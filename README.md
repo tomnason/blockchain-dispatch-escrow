@@ -1,0 +1,2 @@
+# Dispatch escrow protocol (working title) 
+A trustless way to buy and sell tangible goods online. A gated escrow system aligns the release of funds with verifiable actions performed by the seller, mitigating the risks buyers and sellers face today.
