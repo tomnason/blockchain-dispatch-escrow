@@ -10,7 +10,7 @@ The buyer hands over all the money up front, then hopes that the seller processe
 The buyer bares all the risk with no control. 
 ## The solution
 The smart contract based protocol leverages a gated escrow system that aligns the release of buyer funds with verifiable actions performed by the seller. 
-* The buyer commits to the purchase pays full price to contract, but retains rights to funds if seller fails to deliver
+* The buyer commits to the purchase and pays the full sale price to contract, but retains rights to funds if seller fails to deliver
 * The seller earns the sale price incrementally at gates that map to the transfer goods in the real world
 ### Benefits
 * Re-aligns incentives to keep sellers working for their money until the goods are delivered (encouraging better service)
@@ -19,7 +19,6 @@ The smart contract based protocol leverages a gated escrow system that aligns th
 * Decentralises and drives market competition
 * Eliminates chargebacks for sellers
 * Access to new customers
-* Quality service can be rewarded
 * Cuts out middlemen like paypal, credit card companies
 * Cheaper/Faster
 ### Typical workflow
@@ -28,7 +27,7 @@ The smart contract based protocol leverages a gated escrow system that aligns th
     * Fund release gates 1, 2, 3, in percentage form
     * Deadlines
 2.	Buyer accepts offer by transferring the sale price to the contact.
-3.	Seller provides tracking information and, if validated with the carrier, triggers gate 1.
+3.	Seller provides tracking information and, once validated with the carrier, triggers gate 1.
 4.	Seller hands over package to the carrier, who then updates the tracking status, triggering gate 2. The job is now considered in transit.
 5.	Carrier delivers package, triggering gate 3 and the final release of the funds.
 
