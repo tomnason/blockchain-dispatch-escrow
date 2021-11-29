@@ -1,6 +1,9 @@
 # Dispatch Escrow Protocol
 A trustless way to buy and sell tangible goods online. 
 The protocol leverages a gated escrow system that aligns the release of buyer funds with verifiable actions performed by the seller, levelling the playing field and mitigating the risks buyers and sellers face today.
+
+[![Overview video](http://img.youtube.com/vi/Xov_W_pMOY0/0.jpg)](http://www.youtube.com/watch?v=Xov_W_pMOY0 "Overview video")
+
 ## The problem 
 While the purchase of goods online is nothing new, there is a real disconnect between the transfer of funds (risk) and the transfer of the physical goods (value). 
 The buyer hands over all the money up front, then hopes that the seller processes, packs, and then organises handover to a carrier who then hopefully delivers the item.
