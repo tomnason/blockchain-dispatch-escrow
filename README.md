@@ -36,8 +36,15 @@ The seller can withdraw their earned value, based on the gates passed, at any ti
 
 All validation of tracking information occurs via a Chainlink Oracle and underlying API.
 
-###  Test data
-Completed tracking code: ppfmri9pbzlmq
+###  Testing
+Suggest opening the following in remix and deploying to Kovan
+`https://github.com/tomnason/blockchain-dispatch-escrow/blob/master/contracts/DispatchEscrow.sol`
+
+Remember to use two different accounts, one for the buyer and one for the seller.
+
+Also remember to fund the contract with LINK prior to calling `requestBalanceUpdate()`.
+
+Completed tracking code for use in `sellerAddTracking()`: `ppfmri9pbzlmq`
 
 ## Roadmap
 * Flesh out team
